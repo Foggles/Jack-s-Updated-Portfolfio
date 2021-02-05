@@ -10,8 +10,18 @@ div {
     padding: 4px;
 }
 
+img {
+    padding: 2px;
+}
+
 @media screen and (max-width: 767px) {
     .badge {
         display: block;
     }
+}
+
+img {
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
 }
